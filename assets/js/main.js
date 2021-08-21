@@ -37,7 +37,7 @@ const btnClickHandler = (e) => {
     setTimeout(() => {
       target.innerHTML = restoreHTML;
       enabledControls(target, btnClickHandler);
-    }, 500);
+    }, 2000);
   }
 };
 
